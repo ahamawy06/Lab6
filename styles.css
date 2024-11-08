@@ -1,0 +1,101 @@
+.transition-button{
+    border: black solid 3px;
+    background-color: red;
+    transition: all;
+    transition-duration: 0.5s;
+    
+}
+.transition-button:hover{
+    background-color: blue;
+}
+
+.transition-div{
+    border: black solid;
+    width: 100px;
+    background-color: green;
+    transition: all;
+    transition-duration: 1s;
+}
+.transition-div:hover{
+    width: 200px;
+}
+
+.transition-text{
+    border: black solid 3px;
+    background-color: turquoise;
+    font-size: 16px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+.transition-text:hover{
+    font-size: 24px;
+}
+
+.transition-image{
+    border: black solid 3px;
+    opacity: 1;
+    transition: all;
+    transition-duration: 0.8s;
+}
+.transition-image:hover{
+    opacity: 0.5;
+}
+
+.scale-div{
+    border: black solid 3px;
+    background-color: rgb(80, 11, 56);
+    transition: all;
+    scale: 1;
+}
+.scale-div:hover{
+    scale: 1.5;
+}
+
+.scale-image{
+    border: black solid 3px;
+    background-color: rgb(211, 141, 37);
+    transition: all;
+    scale: 1;
+}
+.scale-image:hover{
+    scale: 0.75;
+}
+
+.translate-button{
+    border: black solid 3px;
+    background-color: rgb(75, 6, 73);
+    transition: all; 
+
+}
+.translate-button:hover{
+    transform: translate(50px,20px);
+}
+
+.translate-div{
+    border: black solid 3px;
+    background-color: rgb(61, 14, 104);
+    transition: all; 
+}
+.translate-div:hover{
+    transform: translate(100px,0px);
+}
+
+.skew-heading{
+    border: black solid 3px;
+    background-color: rgba(247, 195, 6, 0.687);
+    transition: all;
+    width: 50px;
+}
+.skew-heading:hover{
+    transform: skewX(20deg);
+
+}
+
+.skew-paragraph{
+    border: black solid 3px;
+    background-color: rgba(127, 10, 10, 0.687);
+    transition: all;
+}
+.skew-paragraph:hover{
+    transform: skewY(15deg)
+}
